@@ -1,0 +1,9 @@
+{
+  "name": "slinky",
+  "version": "0.1.0",
+  "dependencies": {},
+  "devDependencies": {
+    "qunit": "~1.13.0",
+    "jquery": ">=1.7.1"
+  }
+}

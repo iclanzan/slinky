@@ -1,0 +1,36 @@
+{
+  "name": "slinky",
+  "version": "0.1.0",
+  "description": "Scrolling navigation component for web apps.",
+  "title": "Slinky.js",
+  "keywords": [
+    "jquery-plugin"
+  ],
+  "homepage": "https://github.com/iclanzan/slinky",
+  "bugs": "https://github.com/iclanzan/slinky/issues",
+  "author": {
+    "name": "Sorin Iclanzan",
+    "email": "sorin@iclanzan.com",
+    "url": "https://github.com/iclanzan"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iclanzan/slinky.git"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "devDependencies": {
+    "gulp": "~3.5.0",
+    "gulp-uglify": "~0.2.0",
+    "gulp-notify": "~0.4.0",
+    "gulp-clean": "~0.2.4",
+    "gulp-qunit": "git+ssh://git@github.com/jonkemp/gulp-qunit.git",
+    "gulp-jshint": "~1.3.4",
+    "gulp-rename": "~0.2.2",
+    "gulp-concat": "~2.1.7",
+    "gulp-template": "~0.1.1"
+  }
+}

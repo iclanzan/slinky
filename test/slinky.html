@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Slinky Test Suite</title>
+  <!-- Load local jQuery. -->
+  <script src="../bower_components/jquery/jquery.js"></script>
+  <!-- Load local QUnit. -->
+  <link rel="stylesheet" href="../bower_components/qunit/qunit/qunit.css" media="screen">
+  <script src="../bower_components/qunit/qunit/qunit.js"></script>
+  <!-- Load local lib and tests. -->
+  <link rel="stylesheet" href="slinky.css" media="screen">
+  <script src="../dist/jquery.slinky.js"></script>
+  <script src="slinky_test.js"></script>
+  <!-- Removing access to jQuery and $. But it'll still be available as _$, if
+       you REALLY want to mess around with jQuery in the console. REMEMBER WE
+       ARE TESTING A PLUGIN HERE, THIS HELPS ENSURE BEST PRACTICES. REALLY. -->
+  <script>window._$ = jQuery.noConflict(true);</script>
+</head>
+<body>
+  <div id="qunit"></div>
+  <div id="qunit-fixture">
+    <div class="navigation">
+      <div class="scroller">
+        <section>
+          <header>Header 1</header>
+          <ul>
+            <li>some data</li>
+            <li>some data</li>
+            <li>some data</li>
+            <li>some data</li>
+          </ul>
+        </section>
+        <section>
+          <header>Header 2 <button onclick="alert('click')">Click</button></header>
+          <ul>
+            <li>some data</li>
+            <li>some data</li>
+            <li>some data</li>
+            <li>some data</li>
+          </ul>
+        </section>
+        <section>
+          <header style="height: 20px">Header 3</header>
+          <ul>
+            <li>some data</li>
+            <li>some data</li>
+            <li>some data</li>
+            <li>some data</li>
+          </ul>
+        </section>
+        <section>
+          <header>Header 4</header>
+          <ul>
+            <li>some data</li>
+            <li>some data</li>
+            <li>some data</li>
+            <li>some data</li>
+          </ul>
+        </section>
+        <section>
+          <header style="height: 40px">Header 5</header>
+          <ul>
+            <li>some data</li>
+            <li>some data</li>
+            <li>some data</li>
+            <li>some data</li>
+          </ul>
+        </section>
+        <section>
+          <header>Header 6</header>
+          <ul>
+            <li>some data</li>
+            <li>some data</li>
+            <li>some data</li>
+            <li>some data</li>
+          </ul>
+        </section>
+        <section>
+          <header>Header 7</header>
+          <ul>
+            <li>some data</li>
+            <li>some data</li>
+            <li>some data</li>
+            <li>some data</li>
+          </ul>
+        </section>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

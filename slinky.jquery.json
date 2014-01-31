@@ -1,0 +1,32 @@
+{
+  "name": "slinky",
+  "title": "Slinky.js",
+  "description": "Scrolling navigation component for web apps.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/iclanzan/slinky",
+  "author": {
+    "name": "Sorin Iclanzan",
+    "url": "https://github.com/iclanzan"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iclanzan/slinky.git"
+  },
+  "bugs": "https://github.com/iclanzan/slinky/issues",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
+  "dependencies": {
+    "jquery": ">=1.7.1"
+  },
+  "keywords": [
+    "jquery-plugin",
+    "navigation",
+    "menu",
+    "accordion",
+    "ui"
+  ]
+}
