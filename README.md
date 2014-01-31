@@ -1,6 +1,6 @@
-# Slinky.js - Scrolling navigation component for web apps #
+# Slinky.js #
 
-Create beautiful navigation lists with stacking headers that are visible at all times.
+Create beautiful scrolling driven navigation lists with stacking headers that are visible at all times.
 
 _Slinky is currently implemented as a jQuery plugin but if there is enough demand I might write a standalone version too._
 
