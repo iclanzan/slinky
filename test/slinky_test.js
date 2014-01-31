@@ -47,8 +47,9 @@
     var $headers = $('header');
     this.$nav.slinky();
 
-    expect(12);
-    strictEqual($headers.eq(0).css('position'), 'static', 'first header should be static');
+    expect(13);
+    strictEqual($headers.eq(0).css('position'), 'absolute', 'first header should be positioned');
+    strictEqual($headers.eq(0).css('top'), '0px', 'first header should be positioned');
 
     strictEqual($headers.eq(1).css('position'), 'static', 'second header should be static');
 

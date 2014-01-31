@@ -30,10 +30,10 @@
           var position = '';
           var top = header.$parent.position().top;
           
-          if (top < header.top) {
+          if (top <= header.top) {
             position = 'top';
           }
-          else if (top + header.height > scrollerHeight - header.bottom) {
+          else if (top + header.height >= scrollerHeight - header.bottom) {
             position = 'bottom';
           }
 
