@@ -51,6 +51,10 @@ And the accompanying CSS:
 
 Slinky doesn’t make any assumptions about the tags and classes you are using but it does expect to find an element with hidden overflow wrapped around a scrollable element. Inside of it content should be split into sections. The first child of each section is considered to be the header.
 
+## Credits ##
+
+Thanks to [@callmevlad](https://twitter.com/callmevlad) for the idea!
+
 ## Release History ##
 
 + **v0.1.0 (2014-01-31)** Initial version
