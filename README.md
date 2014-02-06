@@ -1,6 +1,6 @@
 # Slinky.js #
 
-Create beautiful scrolling driven navigation lists with stacking headers that are visible at all times.
+Create beautiful scrolling driven navigation lists with stacking headers that remain visible at all times. Scroll around on the [plugin homepage](http://slinky.iclanzan.com) to see it in action.
 
 _Slinky is currently implemented as a jQuery plugin but if there is enough demand I might write a standalone version too._
 
@@ -57,5 +57,5 @@ Thanks to [@callmevlad](https://twitter.com/callmevlad) for the idea!
 
 ## Release History ##
 
-+ **v0.1.0 (2014-01-31)** Initial version
 + **v0.1.1 (2014-02-06)** Fixed rendering glitches on high density screens.
++ **v0.1.0 (2014-01-31)** Initial version
