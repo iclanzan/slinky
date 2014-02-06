@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Slinky.js</title>
+    <meta name="description" content="Scrolling navigation component for web apps">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <main>
+      <nav>
+        <section>
+          <header></header>
+          <article>
+            <small class="arrow">Scroll</small>
+            <h1>Slinky.js</h1>
+          </article>
+        </section>
+        <section>
+          <header><h4>About</h4></header>
+          <article>
+            <p>Slinky.js is a jQuery plugin for creating beautiful scrolling navigation lists with stacking headers.</p>
+            <p>Scroll this page to see it in action!</p>
+          </article>
+        </section>
+        <section>
+          <header><h4>Features</h4></header>
+          <article>
+            <ul>
+              <li><strong>Smooth scrolling</strong> by disabling pointer events</li>
+              <li><strong>Lightweight</strong> at around 1KB minified</li>
+              <li><strong>Refreshes</strong> on window resize and DOM mutation</li>
+              <li><strong>Compatible</strong> with the latest version of your favorite browser</li>
+            </ul>
+          </article>
+        </section>
+        <section>
+          <header><h4>Download</h4></header>
+          <article>
+            <p>Get the latest version for:</p>
+            <p><a class="btn" title="Unminified version" href="https://raw.github.com/iclanzan/slinky/master/dist/jquery.slinky.js">Development</a>
+            <a class="btn" title="Minified version" href="https://raw.github.com/iclanzan/slinky/master/dist/jquery.slinky.min.js">Production</a></p>
+          </article>
+        </section>
+        <section>
+          <header><h4>Usage</h4></header>
+          <article>
+            <p>Include the downloaded file in a script tag after jQuery and call <code>.slinky()</code> on the jQuery element you want to activate Slinky on.</p>
+            <p>Check out the <a href="https://github.com/iclanzan/slinky#getting-started" title="How to use Slinky">Getting Started</a> section of the README for example code.</p>
+          </article>
+        </section>
+        <section>
+          <header><h4>Contributing</h4></header>
+          <article>
+            <p>There is always room for improvement in any software and <em>Slinky.js</em> is no different.</p>
+            <p>The code is hosted on <a href="https://github.com/iclanzan/slinky" title="Slinky.js on GitHub">GitHub</a> and pull requests are more than welcome as long as you follow the <a href="https://github.com/iclanzan/slinky/blob/master/CONTRIBUTING.md" title="How to contribute to Slinky.js">guidelines for contributors</a>.</p>
+          </article>
+        </section>
+        <section>
+          <header><h4>More</h4></header>
+          <article>
+            <p>This plugin is brought to you by <a title="Sorin’s blog" href="http://iclanzan.com">Sorin Iclanzan</a>, creator of <a href="http://songpane.com" title="SongPane set list manager">SongPane</a>, and released under the <a href="https://github.com/iclanzan/slinky/blob/master/LICENSE">MIT license</a>.</p>
+          </article>
+        </section>
+      </nav>
+    </main>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script src="https://rawgithub.com/iclanzan/slinky/master/dist/jquery.slinky.min.js"></script>
+    <script>
+      $('main').slinky();
+    </script>
+
+  </body>
+</html>

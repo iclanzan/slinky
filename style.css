@@ -1,0 +1,183 @@
+* {
+  font-family: inherit;
+  font-size: 100%;
+  font-style: inherit;
+  font-weight: inherit;
+  text-decoration: none;
+  color: inherit;
+  line-height: inherit;
+  border: 0;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  vertical-align: baseline;
+
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:focus, :active, :hover {
+  outline: 0;
+}
+
+::-moz-selection {
+  background: #666;
+  color: #fff;
+  text-shadow: none;
+}
+
+::selection {
+  background: #666;
+  color: #fff;
+  text-shadow: none;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  cursor: default;
+
+  font-size: 125%;
+  font-family: "Helvetica Neue", "Helvetica", "Ubuntu", "Segoe UI", Verdana, sans-serif;
+
+  color: #666;
+  background-color: #fff;
+
+  text-rendering: optimizeLegibility;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+}
+
+body {
+  height: 100%;
+  line-height: 1.5;
+}
+
+main {
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+}
+
+nav {
+  height: 100%;
+  overflow: auto;
+}
+
+section, header {
+  width: 100%;
+  max-width: 400px;
+}
+
+section {
+  margin: 0 auto;
+}
+
+h4 {
+  color: #FFF;
+  padding: .5em 1rem;
+  font-size: .7em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+section:first-child {
+  margin-top: 6.25%;
+}
+
+section:last-child {
+  margin-bottom: 6.25%;
+}
+
+section:nth-child(2) header {
+  background: #57A922;
+}
+
+section:nth-child(3) header {
+  background: #F7AB00;
+}
+
+section:nth-child(4) header {
+  background: #EA6F00;
+}
+
+section:nth-child(5) header {
+  background: #D5262C;
+}
+
+section:nth-child(6) header {
+  background: #7E2985;
+}
+
+section:nth-child(7) header {
+  background: #1985D4;
+}
+
+article {
+  margin: 1rem;
+}
+
+p, ul {
+  margin-bottom: 1em;
+}
+
+li {
+  margin-bottom: .25em;
+  margin-left: 1em;
+}
+
+h1 {
+  font-size: 1.5em;
+  font-weight: 500;
+}
+
+a {
+  border-bottom: 2px solid #ccc;
+}
+
+a:focus, a:active {
+  border-color: #1985D4;
+}
+
+a:active {
+  color: #1985D4;
+}
+
+strong {
+  font-weight: bold;
+}
+
+small {
+  font-size: .8em;
+}
+
+code {
+  font-family: Menlo, "Ubuntu Mono", Consolas, "Courier New", monospace;
+  font-size: .9em;
+}
+
+.btn {
+  display: inline-block;
+  padding: .25em .5em;
+  border-radius: 2px;
+  border: 2px solid #ccc;
+}
+
+.btn:active {
+  background: #1985D4;
+  color: #fff;
+}
+
+.arrow {
+  float: right;
+  color: #ccc;
+  padding-bottom: 18px;
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgNiA2IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGQ9Im0wIDJoMnYtMmgydjJoMmwtMyA0eiIgZmlsbD0iI2RkZCIvPjwvc3ZnPg==");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 18px;
+}
