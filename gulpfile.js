@@ -37,7 +37,7 @@ gulp.task('build', ['clean'], function (){
 });
 
 gulp.task('bump', function () {
-  gulp.src(['./bower.json', './package.json'])
+  gulp.src(['./bower.json', './package.json', './slinky.jquery.json'])
     .pipe(bump())
     .pipe(gulp.dest('./'));
 });

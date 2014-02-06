@@ -2,7 +2,7 @@
   "name": "slinky",
   "title": "Slinky.js",
   "description": "Scrolling navigation component for web apps.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/iclanzan/slinky",
   "author": {
     "name": "Sorin Iclanzan",
