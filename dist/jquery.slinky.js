@@ -1,5 +1,5 @@
 /*
- * Slinky.js v0.1.0
+ * Slinky.js v0.1.1
  * 
  * Copyright (c) 2014 Sorin Iclanzan
  * Licensed under the MIT license.
@@ -30,10 +30,10 @@
           var position = '';
           var top = header.$parent.position().top;
           
-          if (top < header.top) {
+          if (top <= header.top) {
             position = 'top';
           }
-          else if (top + header.height > scrollerHeight - header.bottom) {
+          else if (top + header.height >= scrollerHeight - header.bottom) {
             position = 'bottom';
           }
 
