@@ -8,6 +8,7 @@ var template = require('gulp-template');
 var concat = require('gulp-concat');
 var qunit = require('gulp-qunit');
 var uglify = require('gulp-uglify');
+var bump = require('gulp-bump');
 var notify = require('gulp-notify');
 
 var pkg = require('./package.json');
@@ -33,6 +34,12 @@ gulp.task('build', ['clean'], function (){
     .pipe(uglify())
     .pipe(gulp.dest('dist'))
     .pipe(notify({ message: 'Slinky build was successful!' }));
+});
+
+gulp.task('bump', function () {
+  gulp.src(['./bower.json', './package.json'])
+    .pipe(bump())
+    .pipe(gulp.dest('./'));
 });
 
 gulp.task('watch', function () {
