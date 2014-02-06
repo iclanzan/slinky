@@ -1,5 +1,5 @@
 /*
- * Slinky.js v0.1.1
+ * Slinky.js v0.1.2
  * 
  * Copyright (c) 2014 Sorin Iclanzan
  * Licensed under the MIT license.
