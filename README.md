@@ -58,3 +58,4 @@ Thanks to [@callmevlad](https://twitter.com/callmevlad) for the idea!
 ## Release History ##
 
 + **v0.1.0 (2014-01-31)** Initial version
++ **v0.1.1 (2014-02-06)** Fixed rendering glitches on high density screens.
