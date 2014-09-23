@@ -11,7 +11,9 @@
   var pluginName = 'slinky';
 
   var slinky = $.fn[pluginName] = function (options) {
-    options = $.extend({}, slinky.options, options);
+    options = $.extend({
+      stackBottom: true
+    }, slinky.options, options);
 
     return this.each(function () {
       var $element = $(this);
@@ -33,7 +35,7 @@
           if (top <= header.top) {
             position = 'top';
           }
-          else if (top + header.height >= scrollerHeight - header.bottom) {
+          else if (options.stackBottom === true && top + header.height >= scrollerHeight - header.bottom) {
             position = 'bottom';
           }
 
