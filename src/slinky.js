@@ -108,7 +108,7 @@
       // units where used anywhere.
       $(window).on('resize.' + pluginName, init);
 
-      var MutationObserver = MutationObserver || window.WebKitMutationObserver;
+      var MutationObserver = window.MutationObserver || window.WebKitMutationObserver;
       if (MutationObserver) {
         var observer = new MutationObserver(init);
         observer.observe($scroller[0], {
