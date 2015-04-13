@@ -69,6 +69,32 @@
     strictEqual($headers.eq(6).css('bottom'), '0px', 'last header should be positioned');
   });
 
+  test('initial header positions with no bottom stack', function() {
+    var $headers = $('header');
+    this.$nav.slinky({stackBottom:false});
+
+    expect(13);
+    strictEqual($headers.eq(0).css('position'), 'absolute', 'first header should be positioned');
+    strictEqual($headers.eq(0).css('top'), '0px', 'first header should be positioned');
+
+    strictEqual($headers.eq(1).css('position'), 'static', 'second header should be static');
+
+    strictEqual($headers.eq(2).css('position'), 'static', 'third header should be positioned');
+    strictEqual($headers.eq(2).css('bottom'), 'auto', 'third header should be positioned');
+
+    strictEqual($headers.eq(3).css('position'), 'static', 'fourth header should be positioned');
+    strictEqual($headers.eq(3).css('bottom'), 'auto', 'fourth header should be positioned');
+
+    strictEqual($headers.eq(4).css('position'), 'static', 'fifth header should be positioned');
+    strictEqual($headers.eq(4).css('bottom'), 'auto', 'fifth header should be positioned');
+
+    strictEqual($headers.eq(5).css('position'), 'static', 'sixth header should be positioned');
+    strictEqual($headers.eq(5).css('bottom'), 'auto', 'sixth header should be positioned');
+
+    strictEqual($headers.eq(6).css('position'), 'static', 'last header should be positioned');
+    strictEqual($headers.eq(6).css('bottom'), 'auto', 'last header should be positioned');
+  });
+
   asyncTest('half-way scroll header positions', function() {
     var $headers = $('header');
     this.$nav.slinky();

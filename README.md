@@ -8,6 +8,8 @@ _Slinky is currently implemented as a jQuery plugin but if there is enough deman
 
 Download the [production version][min] or the [development version][max] and include it after jQuery. Then just call `$('.nav').slinky()` for example to enable Slinky on all elements with a `nav` class.
 
+If you want the headers to stack only on the top but not the bottom, you can pass in an option during the initialization. `$('.nav').slinky({ stackBottom: false })`
+
 [min]: https://raw.github.com/iclanzan/slinky/master/dist/jquery.slinky.min.js
 [max]: https://raw.github.com/iclanzan/slinky/master/dist/jquery.slinky.js
 
@@ -57,5 +59,6 @@ Thanks to [@callmevlad](https://twitter.com/callmevlad) for the idea!
 
 ## Release History ##
 
++ **v0.1.2 (2014-09-23)** Added option for not stacking headers on the bottom.
 + **v0.1.1 (2014-02-06)** Fixed rendering glitches on high density screens.
 + **v0.1.0 (2014-01-31)** Initial version
