@@ -1,7 +1,7 @@
 /*
- * Slinky.js v0.1.2
+ * Slinky.js v0.1.3
  * 
- * Copyright (c) 2014 Sorin Iclanzan
+ * Copyright (c) 2015 Sorin Iclanzan
  * Licensed under the MIT license.
  */
 
@@ -108,7 +108,7 @@
       // units where used anywhere.
       $(window).on('resize.' + pluginName, init);
 
-      var MutationObserver = MutationObserver || window.WebKitMutationObserver;
+      var MutationObserver = window.MutationObserver || window.WebKitMutationObserver;
       if (MutationObserver) {
         var observer = new MutationObserver(init);
         observer.observe($scroller[0], {
